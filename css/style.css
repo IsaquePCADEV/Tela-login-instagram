@@ -12,12 +12,13 @@ body {
 }
 
 section.login {
-    width: 340px;
+    width: 350px;
     margin: auto;
-    height: 500px;
+    height: 390px;
     margin-top: 40px;
     border: 1px solid #64646467;
     background-color: rgb(255,255,255);
+    padding: 10px;
 }
 
 .logo img {
@@ -54,8 +55,122 @@ section.login {
     margin-left: 41px;
     color: white;
     text-decoration: none;
-    font-size: .9em;
+    font-size: .8em;
     width: 103px;
-    padding: 7px 83px;
+    padding: 9px 83px;
     border-radius: 3px;
+    font-weight: bold;
 }
+
+.ou {
+    padding-top: 15px;
+    text-align: center;
+    color: #646464c0;
+    font-weight: bold;
+}
+
+.link-face {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.link-face a {
+    color: rgb(56,81,133);
+    font-weight: bolder;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+i {
+    font-size: 1.3em;
+    padding-right: 8px;
+    padding-top: 15px;
+}
+
+.esque {
+    text-align: center;
+    padding-top: 20px;
+    font-size: .7em;
+}
+
+.esque p {
+    color: rgb(56,81,133);
+    font-weight: bold;
+}
+
+.tens {
+    border: 1px solid #64646467;
+    width: 370px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.tens p {
+    padding: 25px;
+    font-size: .9em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tens a {
+    color: rgb(57,174,248);
+    font-weight: bold;
+    padding-left: 7px;
+    text-decoration: none;
+}
+
+.obtem {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imgs {
+    display: flex;
+    margin-left: 100px;
+}
+
+.imgs img {
+    width: 150px;
+}
+
+.playstore {
+    padding-left: 5px;
+}
+
+.footers {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footers-item {
+    padding-left: 20px;
+    font-size: .8em;
+    padding-top: 15px;
+}
+
+.meta {
+    padding-left: 40px;
+}
+
+.contactos {
+    padding-top: 10px;
+    text-align: center;
+    font-size: .8em;
+}
+
+.end {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+
+.end p {
+    font-size: .8em;
+    padding-left: 40px;
+}
+
+
